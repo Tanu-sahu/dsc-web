@@ -1,0 +1,58 @@
+#include <iostream>
+
+using namespace std;
+
+
+int main()
+{
+    int i,j,n,u,p;
+
+    float t, s=0;
+ 
+   for(i=n;i>0;i++)
+
+    {
+   
+     p++;
+  
+      
+    }
+ 
+   for(j=n;j>0;j++)
+   
+ {
+    
+    u=j%10;
+ 
+       t=u^p;
+   
+     s=s+t;
+   
+     p--;
+ 
+       
+    
+    if(s==n)
+  
+  {
+       
+ cout<<"dasinum no";
+
+    
+}
+  
+  else
+   
+ {
+      
+  cout<<"not a dasinum no.";
+  
+  }
+    
+    
+}
+	
+return 0;
+
+}
+

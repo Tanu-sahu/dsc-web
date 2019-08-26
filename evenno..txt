@@ -1,0 +1,20 @@
+#include<iotream.h>
+#include<conio.h>
+void main()
+{
+	int n;
+	float q;
+
+cout<<"enter a number";
+cin>>n;
+q=n/2;
+if(q*2==n)
+{
+	cout<<"even";
+
+}
+else
+{
+	cout<<"odd";
+
+}
